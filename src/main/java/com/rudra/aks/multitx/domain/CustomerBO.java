@@ -24,7 +24,7 @@ public class CustomerBO {
 	
 	@Column
 	private String address;
-	
+
 	@Override
 	public String toString() {
 		return "CustomerBO [customerid=" + customerid + ", customerName=" + customerName + ", emailid=" + emailid
@@ -63,5 +63,8 @@ public class CustomerBO {
 		this.address = address;
 	}
 	
-	
+	protected void demoMethod()
+	{
+		
+	}
 }
